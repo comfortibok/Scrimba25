@@ -105,7 +105,7 @@ button {
 }
 
 input::placeholder,
-textarea::placeholder {
+textarea {
   font-size: 0.9375rem;
   color: rgba(143, 143, 143, 1);
 }
@@ -195,7 +195,7 @@ button {
 
 /* Tablets */
 @media (min-width: 601px) and (max-width: 900px) {
-    h1 {
+  h1 {
     font-size: 2rem;
   }
 
@@ -204,7 +204,7 @@ button {
   }
 
   input::placeholder,
-  textarea::placeholder {
+  textarea {
     font-size: 1.05rem;
   }
 
@@ -238,14 +238,14 @@ button {
 
 /* Laptops */
 @media (min-width: 901px) and (max-width: 1200px) {
- h1 {
+  h1 {
     font-size: 2.25rem;
   }
 
   h2 {
     font-size: 2rem;
   }
-  
+
   input,
   textarea,
   button {
@@ -253,10 +253,10 @@ button {
   }
 
   input::placeholder,
-  textarea::placeholder {
+  textarea {
     font-size: 1.125rem;
   }
-  
+
   textarea {
     height: 15vh;
   }
@@ -279,7 +279,6 @@ button {
   .post {
     margin-block-end: 0;
   }
-
 }
 
 /* Desktops */
@@ -291,9 +290,9 @@ button {
   h2 {
     font-size: 2.125rem;
   }
-  
+
   input::placeholder,
-  textarea::placeholder {
+  textarea {
     font-size: 1.25rem;
   }
 
@@ -329,5 +328,4 @@ button {
   .post {
     margin-block-end: 0;
   }
-
 }
