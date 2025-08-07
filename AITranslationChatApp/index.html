@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ai translation chat app</title>
+    <!-- Poppins Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="app-wrapper">
+        <header>
+            <div>
+                <h1>PollyGlot</h1>
+                <p>Perfect Translation Every Time</p>
+            </div>
+
+            <img src="./assets/parrot.png" alt="">
+        </header>
+
+        <main>
+            <section id="content">
+                <p class="instruction content">Select the language you me to translate into, type your text and hit send!</p>
+                <p class="text content">How are you?</p>
+                <p class="translation content">Comment allez-vous?</p>
+
+            </section>
+            <form action="" id="translation-form">
+                <textarea name="message" aria-label="Type your message..." placeholder="Type your message..."></textarea>
+            <button>submit</button>
+            </form>
+            <section class="radio-section">
+                <img src="./assets/fr-flag.png" alt="French flag">
+                <img src="./assets/sp-flag.png" alt="Spanish flag">
+                <img src="./assets/jpn-flag.png" alt="Japanese flag">
+
+
+            </section>
+
+
+        </main>
+    </div>
+
+    <script src="index.js" type="module"></script>
+</body>
+
+</html>

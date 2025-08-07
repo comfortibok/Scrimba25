@@ -1,0 +1,37 @@
+.appWrapper {
+  max-width: 390px;
+  margin: 0 auto;
+}
+
+.appWrapper p,
+.appWrapper textarea,
+.radioInput label {
+  font-size: 0.76rem;
+}
+
+.radioSection {
+  margin-left: 1.25em;
+}
+
+.radioInput {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 5px;
+}
+
+.radioInput:last-child {
+  margin-bottom: 0;
+}
+
+.radioInput label {
+  margin-inline: 0.76em;
+  font-weight: 700;
+}
+
+.radioInput input[type="radio"] {
+  order: -1;
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgba(188, 188, 188, 1);
+}
